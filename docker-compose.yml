@@ -1,0 +1,22 @@
+version: "3.9"
+
+
+services:
+  backend:
+    build: ./Cargo-First-Backend
+    container_name: backend
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+    restart: always
+
+
+  frontend:
+    build: ./Cargofirstjobs
+    container_name: frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
