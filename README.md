@@ -37,3 +37,5 @@ MONGO_URI=mongodb://<username>:<password>@<host>:<port>/<dbname>
 FRONTEND_API_BASE_URL=http://<frontend-url-or-public-ip>
 JWT_SECRET=<your_jwt_secret_key>
 NODE_ENV=development
+
+---
