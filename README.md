@@ -24,6 +24,8 @@ This project is a full-stack web application deployed using **Docker** on an **A
 
 ---
 
+## ENV Setup
+
 # FRONTEND
 
 REACT_APP_API_BASE_URL=http://<backend-public-ip>:5000/api
