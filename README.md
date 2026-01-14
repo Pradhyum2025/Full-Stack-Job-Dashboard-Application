@@ -28,16 +28,16 @@ This project is a full-stack web application deployed using **Docker** on an **A
 
 # FRONTEND
 
-REACT_APP_API_BASE_URL=http://<backend-public-ip>:5000/api
+- REACT_APP_API_BASE_URL=http://<backend-public-ip>:5000/api
 
 ---
 
 # BACKEND
 
-PORT=5000
-MONGO_URI=mongodb://<username>:<password>@<host>:<port>/<dbname>
-FRONTEND_API_BASE_URL=http://<frontend-url-or-public-ip>
-JWT_SECRET=<your_jwt_secret_key>
-NODE_ENV=development
+- PORT=5000
+- MONGO_URI=mongodb://<username>:<password>@<host>:<port>/<dbname>
+- FRONTEND_API_BASE_URL=http://<frontend-url-or-public-ip>
+- JWT_SECRET=<your_jwt_secret_key>
+- NODE_ENV=development
 
 ---
